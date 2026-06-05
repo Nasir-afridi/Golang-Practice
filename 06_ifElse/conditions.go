@@ -14,11 +14,16 @@ func main() {
 	}
 
 	var role = "admin"
-	var hasPermissions = true
+	var hasPermissions = false
 
 	// Logical Operators
 	// Or Operator
 	if role == "admin" || hasPermissions {
+		fmt.Println("yes")
+	}
+
+	// And Operator
+	if role == "admin" && hasPermissions {
 		fmt.Println("yes")
 	}
 }
