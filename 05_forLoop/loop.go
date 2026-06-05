@@ -32,4 +32,9 @@ func main() {
 
 		fmt.Println(a)
 	}
+
+	// Loop Using Range: it will print from 0 to 2.
+	for b := range 3 {
+		fmt.Println(b)
+	}
 }
