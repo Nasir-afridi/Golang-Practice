@@ -26,4 +26,15 @@ func main() {
 	if role == "admin" && hasPermissions {
 		fmt.Println("yes")
 	}
+
+	// Declaring variables direct in if condition.
+	if ages := 10; ages >= 18 {
+		fmt.Println("Person is an adult")
+	} else if ages >= 12 {
+		fmt.Println("Person is an Teenager")
+	} else {
+		fmt.Println("Person is kid")
+	}
+
+	// Go does not have ternary operator, we will have to use normal if else.
 }
