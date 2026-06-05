@@ -10,7 +10,7 @@ func main() {
 	var age = 32
 	fmt.Println(age)
 
-	//shorthand syntax:
+	//shorthand syntax: cannot working outside the function always use it inside function
 	city := "islamabad"
 	fmt.Println(city)
 
