@@ -16,4 +16,20 @@ func main() {
 	for {
 		fmt.Println("1")
 	}
+
+	// Classic For loop
+	for a := 0; a <= 3; a++ {
+
+		// it will break
+		if a == 3 {
+			break
+		}
+
+		// it will continue
+		if a == 2 {
+			continue
+		}
+
+		fmt.Println(a)
+	}
 }
