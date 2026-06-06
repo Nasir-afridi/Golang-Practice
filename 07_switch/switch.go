@@ -26,4 +26,19 @@ func main() {
 	default:
 		fmt.Println("WeekDays.")
 	}
+
+	// type switch
+	typeCheck := func(i interface{}) {
+		switch i.(type) {
+		case int:
+			fmt.Println("Its an Integer")
+		case string:
+			fmt.Println("It's an string")
+		case bool:
+			fmt.Println("Its a booleans")
+		default:
+			fmt.Println("Other")
+		}
+	}
+	typeCheck(44)
 }
