@@ -12,4 +12,8 @@ func main() {
 	// adding the element on the 0th index.
 	nums[0] = 1
 	fmt.Println(nums[0])
+
+	// declare array in single line.
+	number := [5]int{1, 2, 3, 4, 5}
+	fmt.Println(number)
 }
