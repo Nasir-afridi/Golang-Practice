@@ -8,4 +8,8 @@ func main() {
 
 	var nums [4]int        // declared the array.
 	fmt.Println(len(nums)) // get the length of the array
+
+	// adding the element on the 0th index.
+	nums[0] = 1
+	fmt.Println(nums[0])
 }
