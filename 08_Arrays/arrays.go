@@ -16,4 +16,8 @@ func main() {
 	// declare array in single line.
 	number := [5]int{1, 2, 3, 4, 5}
 	fmt.Println(number)
+
+	// 2d arrays.
+	num := [2][2]int{{3, 4}, {5, 6}}
+	fmt.Println(num)
 }
