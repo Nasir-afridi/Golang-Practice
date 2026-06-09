@@ -20,4 +20,9 @@ func main() {
 	// 2d arrays.
 	num := [2][2]int{{3, 4}, {5, 6}}
 	fmt.Println(num)
+
+	// ***********************use cases of Arrays.*********************
+	// fixed size, that is predictable.
+	// Memory optimization
+	// Constant time access
 }
