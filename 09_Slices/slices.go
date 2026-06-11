@@ -10,6 +10,6 @@ func main() {
 	fmt.Println(len(nums)) // checked the length of the slice
 
 	// slice with make function.
-	var num = make([]int, 2)
-	fmt.Println(num)
+	var num = make([]int, 2) // capacity is 2 means maximum numbers of elements can fit.
+	fmt.Println(cap(num))
 }
